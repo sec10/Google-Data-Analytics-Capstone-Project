@@ -27,4 +27,4 @@ Questions to ask:
 
 ## Prepare  
 ______________________________________________________________________________________________________________________________________________________________________________________________
-The .csv data files can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). Some of the files are too large to open in excel so I decided to upload them into Microsoft SQL Server Management Studio. The column headers were not consistent 
+The .csv data files can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). Some of the files are too large to open in excel so I decided to upload them into Microsoft SQL Server Management Studio. The column headers were not consistent so when creating tables I standardized column header names. 
