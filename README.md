@@ -33,6 +33,10 @@ The .csv data files can be found [here](https://divvy-tripdata.s3.amazonaws.com/
 The data is organized into the four quarters of the 2019 year in .csv files. Some of the files are too large to open in excel so I decided to upload them into Microsoft SQL Server Management Studio.  Once all the files are uploaded, I familiarize myself with the data and find inconsistencies with column names and data types so I standardize the data column names and data types within all four tables.
 
 
+
+
+ ## Process
+ ____________________________________________________________________________________________________________________________________________________________________________________________
 ### Combining Data
 I then create a new table with the standardized column names and data types and then combine all four of the tables into my new table. 
  [Combining Data](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/Data%20Combining%20SQL)
@@ -40,14 +44,15 @@ I then create a new table with the standardized column names and data types and 
 ### Adding Two New Columns
 I then added two new columns, day_of_week and ride_length, based off the start_time and tripduration columns. 
  [Add New Columns](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/New%20Columns)
-
- ## Process
- ____________________________________________________________________________________________________________________________________________________________________________________________
+ 
+### Duplicates
 The first steps I took to clean the data was to see if there are any duplicates. Since the trip_id is the primary key I set my query up to make sure each record is unique. There were no duplicates in the trip_id column. 
 
+### NULL Values
 I then checked for NULL values. In all the columns. 
 
- ![image](https://github.com/user-attachments/assets/39274c0c-8cd9-4a5a-b06d-c2f9b3ba67fd)
+Null values only show up in the gender and birthyear. This data is not crucial to answering the question "How do annual members and casual riders use Cyclist bikes differently?" so I left them in. 
+![image](https://github.com/user-attachments/assets/39274c0c-8cd9-4a5a-b06d-c2f9b3ba67fd)
 
 
 
