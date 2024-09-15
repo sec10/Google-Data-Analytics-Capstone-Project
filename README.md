@@ -26,5 +26,14 @@ Questions to ask:
   * Most popular times of day
 
 ## Prepare  
-______________________________________________________________________________________________________________________________________________________________________________________________
-The .csv data files can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). Some of the files are too large to open in excel so I decided to upload them into Microsoft SQL Server Management Studio. The column headers were not consistent so when creating tables I standardized column header names. 
+_____________________________________________________________________________________________________________________________________________________________________________________________
+The .csv data files can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made availableby Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement)
+The data is organized into the four quarters of the 2019 year in .csv files. Some of the files are too large to open in excel so I decided to upload them into Microsoft SQL Server Management Studio.  Once all the files are uploaded, I familiarize myself with the data and find inconsistencies with column names and data types. 
+
+After I  standardize the data column names and data types within all four tables. I then added two new columns, day_of_week and ride_length, based off the start_time and tripduration columns. 
+
+
+
+
+
+
