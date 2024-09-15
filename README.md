@@ -37,7 +37,7 @@ The data is organized into the four quarters of the 2019 year in .csv files. Som
 ### Combining Data
 __________________
 I then create a new table with the standardized column names and data types and then combine all four of the tables into my new table. 
-
+ [Combining Data](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/Data%20Combining%20SQL)
 
 I then added two new columns, day_of_week and ride_length, based off the start_time and tripduration columns. 
 
