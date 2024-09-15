@@ -30,9 +30,13 @@ ________________________________________________________________________________
 The .csv data files can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made availableby Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement)
 
 ### Organize and Standarize
+___________________________
 The data is organized into the four quarters of the 2019 year in .csv files. Some of the files are too large to open in excel so I decided to upload them into Microsoft SQL Server Management Studio.  Once all the files are uploaded, I familiarize myself with the data and find inconsistencies with column names and data types so I standardize the data column names and data types within all four tables.
 
-I then create a new table with standardized column names and data types and then combine all four of the tables into my new table. 
+
+### Combining Data
+__________________
+I then create a new table with the standardized column names and data types and then combine all four of the tables into my new table. 
 
 
 I then added two new columns, day_of_week and ride_length, based off the start_time and tripduration columns. 
