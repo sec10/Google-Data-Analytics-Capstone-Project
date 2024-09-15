@@ -40,9 +40,10 @@ I then create a new table with the standardized column names and data types and 
  [Combining Data](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/Data%20Combining%20SQL)
 
 I then added two new columns, day_of_week and ride_length, based off the start_time and tripduration columns. 
+ [Add New Columns](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/New%20Columns)
 
-
-
+ ## Process
+ ___________
 
 
 
