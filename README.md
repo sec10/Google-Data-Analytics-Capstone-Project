@@ -20,23 +20,21 @@ Questions to ask:
   * Frequency of different users on each day of the week.
   * Ride length differences of different users
   * What day of the week is most popular for different users
-  * Average age of riders
-  * Gender of riders
   * What casual and members use bikes in different seasons
   * Most popular times of day
 
 ## Prepare  
 _____________________________________________________________________________________________________________________________________________________________________________________________
-The .csv data files can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made availableby Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement)
+The .csv data files can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html).  The data is organized into the four quarters of the 2019 year in .csv files. Some of the files are too large to open in excel so I decided to upload each of them seperatley into Microsoft SQL Server Management Studio.
 
-### Organize and Standarize
-The data is organized into the four quarters of the 2019 year in .csv files. Some of the files are too large to open in excel so I decided to upload them into Microsoft SQL Server Management Studio.  Once all the files are uploaded, I familiarize myself with the data and find inconsistencies with column names and data types so I standardize the data column names and data types within all four tables.
-
-
-
+The data has been made availableby Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement)
 
  ## Process
  ____________________________________________________________________________________________________________________________________________________________________________________________
+### Organize and Standarize
+
+Once all the four files are uploaded, I familiarize myself with the data and find inconsistencies with column names and data types so I standardize the data column names and data types within all four tables.
+
 ### Combining Data
 I then create a new table with the standardized column names and data types and then combine all four of the tables into my new table. 
  [Combining Data](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/Data%20Combining%20SQL)
@@ -52,6 +50,7 @@ The first steps I took to clean the data was to see if there are any duplicates.
 I then checked for NULL values. In all the columns. 
 
 Null values only show up in the gender and birthyear. This data is not crucial to answering the question "How do annual members and casual riders use Cyclist bikes differently?" so I left them in. 
+
 ![image](https://github.com/user-attachments/assets/39274c0c-8cd9-4a5a-b06d-c2f9b3ba67fd)
 
 
