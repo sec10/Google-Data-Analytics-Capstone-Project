@@ -1,0 +1,93 @@
+-- Duplicates
+SELECT 
+    trip_id, COUNT(*)
+FROM 
+    dbo.Divvy_Trips_2019_Combined
+GROUP BY 
+    trip_id
+HAVING 
+    COUNT(*) > 1;
+
+
+--Identify Null Values
+
+SELECT 'trip_id' AS trip_id, COUNT(*) AS null_count
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE trip_id IS NULL
+
+UNION ALL
+
+SELECT 'start_time', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE start_time IS NULL
+
+UNION ALL
+
+SELECT 'end_time', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE end_time IS NULL
+
+
+UNION ALL
+
+SELECT 'bikid', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE bikeid IS NULL
+
+
+UNION ALL
+
+SELECT 'tripduration', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE tripduration IS NULL
+
+
+UNION ALL
+
+SELECT 'from_station_id', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE from_station_id IS NULL
+
+
+UNION ALL
+
+SELECT 'from_station_name', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE from_station_name IS NULL
+
+UNION ALL
+
+SELECT 'to_station_name', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE to_station_name IS NULL
+
+
+UNION ALL
+
+SELECT 'usertype', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE usertype IS NULL
+
+UNION ALL
+
+SELECT 'gender', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE gender IS NULL
+
+UNION ALL
+
+SELECT 'birthyear', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE birthyear IS NULL
+
+UNION ALL
+
+SELECT 'ride_length', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE ride_length IS NULL
+
+UNION ALL
+
+SELECT 'day_of_week', COUNT(*)
+FROM dbo.Divvy_Trips_2019_Combined
+WHERE day_of_week IS NULL
