@@ -49,11 +49,16 @@ The first steps I took to clean the data was to see if there are any duplicates.
 
 ### NULL Values
 I then checked for NULL values. In all the columns. 
-[Duplicate and NUll Values](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/Duplicates%20and%20Null%20Values)
+[Duplicate and Null Values](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/Duplicates%20and%20Null%20Values)
 
 Null values only show up in the gender and birthyear. This data is not crucial to answering the question "How do annual members and casual riders use Cyclist bikes differently?" so I left them in. 
 
 ![image](https://github.com/user-attachments/assets/39274c0c-8cd9-4a5a-b06d-c2f9b3ba67fd)
+
+## Analyze and Share 
+_____________________________________________________________________________________________________________________________________________________________________________________________
+I wanted 
+
 
 
 
