@@ -1,0 +1,28 @@
+-- Add New Columns
+ALTER TABLE dbo.Divvy_Trips_2019_Combined
+ADD day_of_week VARCHAR(8);
+
+--Populate day_of_week column based off the start_time column 
+UPDATE dbo.Divvy_Trips_2019_Combined
+SET day_of_week = CASE 
+    WHEN DATEPART(WEEKDAY, start_time) = 1 THEN 'Sunday'
+    WHEN DATEPART(WEEKDAY, start_time) = 2 THEN 'Monday'
+    WHEN DATEPART(WEEKDAY, start_time) = 3 THEN 'Tuesday'
+    WHEN DATEPART(WEEKDAY, start_time) = 4 THEN 'Wednesday'
+    WHEN DATEPART(WEEKDAY, start_time) = 5 THEN 'Thursday'
+    WHEN DATEPART(WEEKDAY, start_time) = 6 THEN 'Friday'
+    WHEN DATEPART(WEEKDAY, start_time) = 7 THEN 'Saturday'
+END;
+
+
+ALTER TABLE dbo.Divvy_Trips_2019_Combined
+ADD ride_length VARCHAR(8);
+
+-- Convert float column of tripduration to an int in order to get hr:min:sec format for new column
+UPDATE dbo.Divvy_Trips_2019_Combined
+SET ride_length = 
+    RIGHT('0' + CAST(FLOOR(CAST(float_column AS INT) / 3600) AS VARCHAR), 2) + ':' +
+    RIGHT('0' + CAST(FLOOR((CAST(float_column AS INT) % 3600) / 60) AS VARCHAR), 2) + ':' +
+    RIGHT('0' + CAST((CAST(float_column AS INT) % 60) AS VARCHAR), 2);
+
+
