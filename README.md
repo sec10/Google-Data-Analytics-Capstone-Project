@@ -45,9 +45,11 @@ I then added two new columns, day_of_week and ride_length, based off the start_t
  
 ### Duplicates
 The first steps I took to clean the data was to see if there are any duplicates. Since the trip_id is the primary key I set my query up to make sure each record is unique. There were no duplicates in the trip_id column. 
+[Duplicates](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/Duplicates%20and%20Null%20Values)
 
 ### NULL Values
 I then checked for NULL values. In all the columns. 
+[Duplicates](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/Duplicates%20and%20Null%20Values)
 
 Null values only show up in the gender and birthyear. This data is not crucial to answering the question "How do annual members and casual riders use Cyclist bikes differently?" so I left them in. 
 
