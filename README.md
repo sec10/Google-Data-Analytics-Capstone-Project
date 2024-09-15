@@ -42,7 +42,13 @@ I then added two new columns, day_of_week and ride_length, based off the start_t
  [Add New Columns](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/New%20Columns)
 
  ## Process
- ___________
+ ____________________________________________________________________________________________________________________________________________________________________________________________
+The first steps I took to clean the data was to see if there are any duplicates. Since the trip_id is the primary key I set my query up to make sure each record is unique. There were no duplicates in the trip_id column. 
+
+I then checked for NULL values. In all the columns. 
+
+ ![image](https://github.com/user-attachments/assets/39274c0c-8cd9-4a5a-b06d-c2f9b3ba67fd)
+
 
 
 
