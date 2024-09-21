@@ -55,9 +55,21 @@ Null values only show up in the gender and birthyear. This data is not crucial t
 
 ![image](https://github.com/user-attachments/assets/39274c0c-8cd9-4a5a-b06d-c2f9b3ba67fd)
 
+
 ## Analyze and Share 
 _____________________________________________________________________________________________________________________________________________________________________________________________
-I wanted 
+Now it is time to analyze the data and answer the question "How do annual members and casual riders use Cyclistic bikes differently?". 
+
+1.Find out what types of users there are: 
+SELECT usertype, COUNT(*) AS count
+FROM dbo.divvy_trips_2019_Combined
+WHERE usertype IN ('customer', 'subscriber')
+GROUP BY usertype;
+ ![image](https://github.com/user-attachments/assets/b5ab9b3b-9237-44e1-b5c6-3c819a3c5f47)
+
+
+ What is the average time casual riders ride vs. average time annual members ride?
+
 
 
 
