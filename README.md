@@ -69,7 +69,7 @@ GROUP BY usertype;<br />
 
  ![image](https://github.com/user-attachments/assets/b5ab9b3b-9237-44e1-b5c6-3c819a3c5f47)
 
- 2. The frequency of the different users on each day of the week: <br />
+ 2. The frequency of the different users on each day of the week for a year: <br />
  
 SELECT <br />
     day_of_week, <br />
@@ -96,7 +96,32 @@ ORDER BY <br />
 
    ![image](https://github.com/user-attachments/assets/26368156-c903-4cbf-86c3-3fae7f0f3a4e)
 
+3. Frequency of different users for each quarter:
+   WITH RankedRows AS (
+    SELECT 
+        ride_length, 
+        usertype,
+        ROW_NUMBER() OVER (ORDER BY ride_length) AS row_num,
+        COUNT(*) OVER () AS total_rows
+    FROM dbo.Divvy_Trips_2019_Q1
+    WHERE usertype LIKE 'Customer'
+)
+SELECT ride_length, usertype
+FROM RankedRows
+WHERE row_num = (total_rows + 1) / 2;
 
+WITH RankedRows AS (
+    SELECT 
+        ride_length, 
+        usertype,
+        ROW_NUMBER() OVER (ORDER BY ride_length) AS row_num,
+        COUNT(*) OVER () AS total_rows
+    FROM dbo.Divvy_Trips_2019_Q1
+    WHERE usertype LIKE 'Subscriber'
+)
+SELECT ride_length, usertype
+FROM RankedRows
+WHERE row_num = (total_rows + 1) / 2;
  
 
 
