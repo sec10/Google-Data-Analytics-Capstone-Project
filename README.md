@@ -69,7 +69,6 @@ GROUP BY usertype;<br />
 
  ![image](https://github.com/user-attachments/assets/b5ab9b3b-9237-44e1-b5c6-3c819a3c5f47)
 
-
  2. The frequency of the different users on each day of the week: <br />
  
 SELECT <br />
@@ -93,8 +92,9 @@ ORDER BY <br />
     END,<br />
     usertype<br />
     Results: <br />
-    
-    ![image](https://github.com/user-attachments/assets/78fada05-ae6f-444b-b202-d0e2d960517d)
+    ![image](https://github.com/user-attachments/assets/d0d29851-1f57-4d0e-87c4-b67b45413858)
+
+ 
 
 
 
