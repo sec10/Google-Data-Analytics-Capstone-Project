@@ -60,11 +60,11 @@ Null values only show up in the gender and birthyear. This data is not crucial t
 _____________________________________________________________________________________________________________________________________________________________________________________________
 Now it is time to analyze the data and answer the question "How do annual members and casual riders use Cyclistic bikes differently?". 
 
-1.Find out what types of users there are: 
-SELECT usertype, COUNT(*) AS count
-FROM dbo.divvy_trips_2019_Combined
-WHERE usertype IN ('customer', 'subscriber')
-GROUP BY usertype;
+1.Find out what types of users there are: <br />
+SELECT usertype, COUNT(*) AS count<br />
+FROM dbo.divvy_trips_2019_Combined<br />
+WHERE usertype IN ('customer', 'subscriber')<br />
+GROUP BY usertype;<br />
 
 
  ![image](https://github.com/user-attachments/assets/b5ab9b3b-9237-44e1-b5c6-3c819a3c5f47)
