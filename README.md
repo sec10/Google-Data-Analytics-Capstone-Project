@@ -127,7 +127,20 @@ Quarter 1 - January - March 2019
 
 ![image](https://github.com/user-attachments/assets/5f1785a1-0a25-4435-ae92-aa7e18c5e742)
 
- 
+
+Quarter 2 - April - June 2019
+
+![image](https://github.com/user-attachments/assets/0331e6b6-c12a-4946-b9fa-e8d9f093d023)
+
+Quarter 3 - July - September 2019
+
+![image](https://github.com/user-attachments/assets/cc4024fb-bbf9-4376-805a-74033a850f8b)
+
+Quarter 4 - October - December 2019
+
+![image](https://github.com/user-attachments/assets/e19de5ab-d473-4ba7-ac23-337c1991d0ef)
+
+
 
 
 
