@@ -97,31 +97,36 @@ ORDER BY <br />
    ![image](https://github.com/user-attachments/assets/26368156-c903-4cbf-86c3-3fae7f0f3a4e)
 
 3. Frequency of different users for each quarter:
-   WITH RankedRows AS (
-    SELECT 
-        ride_length, 
-        usertype,
-        ROW_NUMBER() OVER (ORDER BY ride_length) AS row_num,
-        COUNT(*) OVER () AS total_rows
-    FROM dbo.Divvy_Trips_2019_Q1
-    WHERE usertype LIKE 'Customer'
-)
-SELECT ride_length, usertype
-FROM RankedRows
-WHERE row_num = (total_rows + 1) / 2;
+   WITH RankedRows AS (<br />
+    SELECT <br />
+        ride_length, <br />
+        usertype,<br />
+        ROW_NUMBER() OVER (ORDER BY ride_length) AS row_num,<br />
+        COUNT(*) OVER () AS total_rows<br />
+    FROM dbo.Divvy_Trips_2019_Q1<br />
+    WHERE usertype LIKE 'Customer'<br />
+)<br />
+SELECT ride_length, usertype<br />
+FROM RankedRows<br />
+WHERE row_num = (total_rows + 1) / 2;<br />
 
-WITH RankedRows AS (
-    SELECT 
-        ride_length, 
-        usertype,
-        ROW_NUMBER() OVER (ORDER BY ride_length) AS row_num,
-        COUNT(*) OVER () AS total_rows
-    FROM dbo.Divvy_Trips_2019_Q1
-    WHERE usertype LIKE 'Subscriber'
-)
-SELECT ride_length, usertype
-FROM RankedRows
-WHERE row_num = (total_rows + 1) / 2;
+WITH RankedRows AS (<br />
+    SELECT <br />
+        ride_length, <br />
+        usertype,<br />
+        ROW_NUMBER() OVER (ORDER BY ride_length) AS row_num,<br />
+        COUNT(*) OVER () AS total_rows<br />
+    FROM dbo.Divvy_Trips_2019_Q1<br />
+    WHERE usertype LIKE 'Subscriber'<br />
+)<br />
+SELECT ride_length, usertype<br />
+FROM RankedRows<br />
+WHERE row_num = (total_rows + 1) / 2;<br />
+
+Quarter 1 - January - March 2019
+
+![image](https://github.com/user-attachments/assets/5f1785a1-0a25-4435-ae92-aa7e18c5e742)
+
  
 
 
