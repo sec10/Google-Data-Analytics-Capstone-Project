@@ -91,7 +91,9 @@ ORDER BY <br />
         WHEN day_of_week = 'Saturday' THEN 7<br />
     END,<br />
     usertype<br />
+    
     Results: <br />
+    
     ![image](https://github.com/user-attachments/assets/d0d29851-1f57-4d0e-87c4-b67b45413858)
 
  
