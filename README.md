@@ -65,6 +65,8 @@ SELECT usertype, COUNT(*) AS count
 FROM dbo.divvy_trips_2019_Combined
 WHERE usertype IN ('customer', 'subscriber')
 GROUP BY usertype;
+
+
  ![image](https://github.com/user-attachments/assets/b5ab9b3b-9237-44e1-b5c6-3c819a3c5f47)
 
 
