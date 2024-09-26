@@ -96,7 +96,7 @@ ORDER BY <br />
 
    ![image](https://github.com/user-attachments/assets/26368156-c903-4cbf-86c3-3fae7f0f3a4e)
 
-3. Frequency of different users for each quarter:
+3. Frequency of different users for each quarter:<br />
    WITH RankedRows AS (<br />
     SELECT <br />
         ride_length, <br />
