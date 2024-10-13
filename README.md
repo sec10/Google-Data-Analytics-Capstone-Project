@@ -68,7 +68,6 @@ GROUP BY usertype;<br />
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeGraph.jpg)
 
- ![image](https://github.com/user-attachments/assets/b5ab9b3b-9237-44e1-b5c6-3c819a3c5f47)
 
  2. The frequency of the different users on each day of the week for a year: <br />
  
