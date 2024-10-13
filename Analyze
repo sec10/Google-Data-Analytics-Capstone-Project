@@ -1,0 +1,5 @@
+Types and counts of users: 
+SELECT usertype, COUNT(*) AS count<br />
+FROM dbo.divvy_trips_2019_Combined<br />
+WHERE usertype IN ('customer', 'subscriber')<br />
+GROUP BY usertype;<br />
