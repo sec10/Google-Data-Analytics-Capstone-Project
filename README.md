@@ -60,37 +60,14 @@ Null values only show up in the gender and birthyear. This data is not crucial t
 _____________________________________________________________________________________________________________________________________________________________________________________________
 Now it is time to analyze the data and answer the question "How do annual members and casual riders use Cyclistic bikes differently?". 
 
-1. Types and counts of users: <br />+
+1. Types and counts of users: <br />
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeGraph.jpg)
 
 
- 2. The frequency of the different users on each day of the week for a year: <br />
- 
-SELECT <br />
-    day_of_week, <br />
-    usertype, <br />
-    COUNT(*) AS Frequency<br />
-FROM <br />
-    dbo.Divvy_Trips_2019_Combined<br />
-GROUP BY <br />
-    day_of_week, <br />
-    usertype<br />
-ORDER BY <br />
-    CASE <br />
-        WHEN day_of_week = 'Sunday' THEN 1<br />
-        WHEN day_of_week = 'Monday' THEN 2<br />
-        WHEN day_of_week = 'Tuesday' THEN 3<br />
-        WHEN day_of_week = 'Wednesday' THEN 4<br />
-        WHEN day_of_week = 'Thursday' THEN 5<br />
-        WHEN day_of_week = 'Friday' THEN 6<br />
-        WHEN day_of_week = 'Saturday' THEN 7<br />
-    END,<br />
-    usertype<br />
-    
-   Results:<br />
+ 2. The frequency of the different users on each day of the week for the year 2019: <br />
 
-   ![image](https://github.com/user-attachments/assets/26368156-c903-4cbf-86c3-3fae7f0f3a4e)
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeGraph.jpg)
 
 3. Frequency of different users for each quarter:<br />
    WITH RankedRows AS (<br />
