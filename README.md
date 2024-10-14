@@ -71,32 +71,8 @@ Now it is time to analyze the data and answer the question "How do annual member
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByDayOfWeekFor2019.jpg)
 
-3. Frequency of different users for each quarter:<br />
-   WITH RankedRows AS (<br />
-    SELECT <br />
-        ride_length, <br />
-        usertype,<br />
-        ROW_NUMBER() OVER (ORDER BY ride_length) AS row_num,<br />
-        COUNT(*) OVER () AS total_rows<br />
-    FROM dbo.Divvy_Trips_2019_Q1<br />
-    WHERE usertype LIKE 'Customer'<br />
-)<br />
-SELECT ride_length, usertype<br />
-FROM RankedRows<br />
-WHERE row_num = (total_rows + 1) / 2;<br />
-
-WITH RankedRows AS (<br />
-    SELECT <br />
-        ride_length, <br />
-        usertype,<br />
-        ROW_NUMBER() OVER (ORDER BY ride_length) AS row_num,<br />
-        COUNT(*) OVER () AS total_rows<br />
-    FROM dbo.Divvy_Trips_2019_Q1<br />
-    WHERE usertype LIKE 'Subscriber'<br />
-)<br />
-SELECT ride_length, usertype<br />
-FROM RankedRows<br />
-WHERE row_num = (total_rows + 1) / 2;<br />
+3. Total Trips per month:<br />
+  
 
 Quarter 1 - January - March 2019
 
