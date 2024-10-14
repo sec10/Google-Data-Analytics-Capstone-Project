@@ -4,7 +4,9 @@ Case Study in Final Course of the Google Data Analytics Professional Certificate
 
 ## Introduction  
 _____________________________________________________________________________________________________________________________________________________________________________________________
-This case study will be for the fictional bike sharing company Cyclistic. I will be acting as a Junior Data Analyst with marketing team. The steps for this data analysis will follow the process of: Ask, Prepare, Process, Analyze, Share, and Act.
+This case study will be for the fictional bike sharing company Cyclistic. I will be acting as a Junior Data Analyst with marketing team. The steps for this data analysis will follow the process of: Ask, Prepare, Process, Analyze, Share, and Act.  
+
+Tools Used: Excel, Microsoft SQL Sever, Power Bi Desktop
 
 
 ## About Company and Goals
