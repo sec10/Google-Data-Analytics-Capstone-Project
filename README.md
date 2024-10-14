@@ -72,7 +72,10 @@ Now it is time to analyze the data and answer the question "How do annual member
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByDayOfWeekFor2019.jpg)
 
 3. Total Trips per month:<br />
-  
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByMonth2019.jpg)
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/ByMonth.jpg)
+
+
 
 Quarter 1 - January - March 2019
 
