@@ -67,7 +67,7 @@ Now it is time to analyze the data and answer the question "How do annual member
 
  2. The frequency of the different users on each day of the week for the year 2019: <br />
 
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeGraph.jpg)
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByDayOfWeekFor2019.jpg)
 
 3. Frequency of different users for each quarter:<br />
    WITH RankedRows AS (<br />
