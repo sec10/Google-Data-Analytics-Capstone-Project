@@ -78,7 +78,8 @@ Now it is time to analyze the data and answer the question "How do annual member
 
 
 4. Median Ride Length By Month and User:
-   
+
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/MedianGraph.jpg)    
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/medianRideLengthGraph.jpg)
 
 
