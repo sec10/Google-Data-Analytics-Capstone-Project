@@ -19,11 +19,12 @@ ________________________________________________________________________________
 To answer the question of how to convert casual riders into annual riders the team needs to better understand how annual members and casual riders differ. I have been assigned to answer the question: How do annual members and casual riders use Cyclist biked differently?
 
 Questions to ask: 
-  * Frequency of different users on each day of the week.
-  * Ride length differences of different users
-  * What day of the week is most popular for different users
-  * What casual and members use bikes in different seasons
-  * Most popular times of day
+  * Types and counts of users
+  * What days of the week are users most likely to ride? Ride the least?
+  * What months are the busiest for different types of users? Least busiest?
+  * Median ride length of users
+  * Most visited docking stations by each user
+  
 
 ## Prepare  
 _____________________________________________________________________________________________________________________________________________________________________________________________
