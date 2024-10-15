@@ -16,14 +16,13 @@ Cyclist is a bike-share company based out of Chicago. They have 5,824 bicycles w
 
 ## Ask  
 ______________________________________________________________________________________________________________________________________________________________________________________________
-To answer the question of how to convert casual riders into annual riders the team needs to better understand how annual members and casual riders differ. I have been assigned to answer the question: How do annual members and casual riders use Cyclist biked differently?
+To answer the question of how to convert casual riders into annual riders the team needs to better understand how annual members and casual riders differ. I have been assigned to answer the question: How do annual members and casual riders use Cyclist bikes differently?
 
 Questions to ask: 
   * Types and counts of users
   * What days of the week are users most likely to ride? Ride the least?
   * What months are the busiest for different types of users? Least busiest?
   * Median ride length of users
-  * Most visited docking stations by each user
   
 
 ## Prepare  
