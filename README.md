@@ -64,9 +64,9 @@ Now it is time to analyze the data and answer the question "How do annual member
 
 1. Types and counts of users: <br />
 
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeGraph.jpg)  
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/PercentofRiders.jpg)  
 
-There are 2,056,730 more subscribers than there are casual (customer) riders. 
+There are 880,637 Customers and 2,937,367 Subscribers. 
 
 
  2. The frequency of the different users on each day of the week for the year 2019: <br />
