@@ -64,7 +64,7 @@ Now it is time to analyze the data and answer the question "How do annual member
 
 1. Types and counts of users: <br />
 
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/PercentofRiders.jpg)  
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/PercentOfRiders.jpg)  
 
 There are 880,637 Customers and 2,937,367 Subscribers. 
 
