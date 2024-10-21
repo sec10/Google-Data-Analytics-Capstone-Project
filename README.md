@@ -64,24 +64,31 @@ Now it is time to analyze the data and answer the question "How do annual member
 
 1. Types and counts of users: <br />
 
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeGraph.jpg)
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeGraph.jpg)  
+
+There are 2,056,730 more subscribers than there are casual (customer) riders. 
 
 
  2. The frequency of the different users on each day of the week for the year 2019: <br />
 
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByDayOfWeekFor2019.jpg)
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByDayOfWeekFor2019.jpg)  
 
-3. Total Trips per month:<br />
+Monday thru Fridays are the busiest times for subscribers, with Tuesdays being the busiest. The weekends are the busiest times for casual (customers) riders, with Saturdays being the busiest. 
+
+3. Total trips per month:<br />
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByMonth2019.jpg)
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/ByMonth.jpg)
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/ByMonth.jpg)  
+
+For both groups the most trips were taken in September with the least trips taken in February. 
 
 
 <b>4. Median Ride Length By Month and User:</b>
 
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/MedianGraph.jpg)    
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/MedianGraph.jpg)  
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/medianRideLengthGraph.jpg)
 
+The median ride length were the longest in April and May for customers and June, July, and August for subscribers.  
 
 
 
