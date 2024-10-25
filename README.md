@@ -58,7 +58,7 @@ Null values only show up in the gender and birthyear. This data is not crucial t
 ![image](https://github.com/user-attachments/assets/39274c0c-8cd9-4a5a-b06d-c2f9b3ba67fd)
 
 
-## Analyze and Share 
+## Analyze 
 _____________________________________________________________________________________________________________________________________________________________________________________________
 Now it is time to analyze the data and answer the question "How do annual members and casual riders use Cyclistic bikes differently?". 
 
@@ -66,7 +66,7 @@ Now it is time to analyze the data and answer the question "How do annual member
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/PercentofRiders.JPG)  
 
-There are 880,637 Customers and 2,937,367 Subscribers. 
+There are more customers than subscribers with there being 880,637 Customers and 2,937,367 Subscribers. 
 
 
  2. The frequency of the different users on each day of the week for the year 2019: <br />
@@ -90,6 +90,7 @@ For both groups the most trips were taken in September with the least trips take
 
 The median ride length were the longest in April and May for customers and June, July, and August for subscribers.  
 
+<b>5. Top 5 pick up locations and drop off locations of customers and subscribers:</b>
 
 
 
