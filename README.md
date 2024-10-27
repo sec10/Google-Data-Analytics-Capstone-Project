@@ -90,9 +90,13 @@ For both groups the most trips were taken in September with the least trips take
 
 The median ride length were the longest in April and May for customers and June, July, and August for subscribers.  
 
-<b>5. Top 5 pick up locations and drop off locations of customers and subscribers:</b>
+<b>5. Top 5 starting station locations of customers and subscribers:</b>
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/Top5StartingStations.jpg)  
+
+<b>6. Top 5 drop off station locations of customers and subscribers:</b>  
+
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/.jpg)  
 
 
 
