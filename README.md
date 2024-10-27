@@ -92,7 +92,7 @@ The median ride length were the longest in April and May for customers and June,
 
 <b>5. Top 5 pick up locations and drop off locations of customers and subscribers:</b>
 
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/Top5StartStations.jpg)  
+![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/Top5StartingStations.jpg)  
 
 
 
