@@ -78,22 +78,20 @@ Subscribers are most active on weekdays, with their highest engagement observed 
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByMonth2019.jpg)
 
-
-For both groups the most trips were taken in September with the least trips taken in February. 
+For both subscribers and casual riders, the highest number of trips occurred in September, while February saw the lowest trip volumes.
 
 
 <b>4. Median Ride Length By Month and User:</b>
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/MedianGraph.jpg)  
 
-The median ride length were the longest in April and May for customers and June, July, and August for subscribers.  
+The median ride length was longest for casual riders (customers) in April and May, while for subscribers, it peaked during June, July, and August.
 
 <b>5. Top 5 starting station locations of customers and subscribers:</b>
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/Top5StartingStations.jpg) 
 
-
-Starting stations for customers are located more in the tourist district of Chicago. Whereas the subscribers starting stations are more concentrated in the business district. 
+Starting stations for casual riders (customers) are predominantly located in Chicago's tourist districts, whereas subscribers tend to start their rides in the city's business districts.
 
 <b>6. Top 5 drop off station locations of customers and subscribers:</b>  
 
