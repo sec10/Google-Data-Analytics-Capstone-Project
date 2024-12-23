@@ -72,7 +72,7 @@ Now it is time to analyze the data and answer the question "How do annual member
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByDayOfWeekFor2019.jpg)  
 
-Monday thru Fridays are the busiest times for subscribers, with Tuesdays being the busiest. The weekends are the busiest times for casual (customers) riders, with Saturdays being the busiest. 
+Subscribers are most active on weekdays, with their highest engagement observed on Tuesdays. In contrast, casual riders (customers) predominantly use the service on weekends, with Saturdays experiencing the highest activity levels.
 
 <b>3. Total trips per month:</b><br />
 
