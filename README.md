@@ -69,13 +69,13 @@ Now it is time to analyze the data and answer the question "How do annual member
 There are more customers than subscribers with there being 880,637 Customers and 2,937,367 Subscribers. 
 
 
- 2. The frequency of the different users on each day of the week for the year 2019: <br />
+<b>2. The frequency of the different users on each day of the week for the year 2019: </b><br />
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByDayOfWeekFor2019.jpg)  
 
 Monday thru Fridays are the busiest times for subscribers, with Tuesdays being the busiest. The weekends are the busiest times for casual (customers) riders, with Saturdays being the busiest. 
 
-3. Total trips per month:<br />
+<b>3. Total trips per month:</b><br />
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByMonth2019.jpg)
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/ByMonth.jpg)  
