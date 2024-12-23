@@ -78,7 +78,7 @@ Monday thru Fridays are the busiest times for subscribers, with Tuesdays being t
 <b>3. Total trips per month:</b><br />
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/UserTypeCountByMonth2019.jpg)
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/ByMonth.jpg)  
+
 
 For both groups the most trips were taken in September with the least trips taken in February. 
 
@@ -86,14 +86,13 @@ For both groups the most trips were taken in September with the least trips take
 <b>4. Median Ride Length By Month and User:</b>
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/MedianGraph.jpg)  
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/medianRideLengthGraph.jpg)
 
 The median ride length were the longest in April and May for customers and June, July, and August for subscribers.  
 
 <b>5. Top 5 starting station locations of customers and subscribers:</b>
 
 ![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/Top5StartingStations.jpg) 
-![image](https://github.com/sec10/Google-Data-Analytics-Capstone-Project/blob/main/images/MapStart.jpg)  
+
 
 Starting stations for customers are located more in the tourist district of Chicago. Whereas the subscribers starting stations are more concentrated in the business district. 
 
